@@ -24,6 +24,8 @@ $ sudo xattr -r -d com.apple.quarantine /Library/Java/JavaVirtualMachines/graalv
 $ /Library/Java/JavaVirtualMachines/graalvm-ce-java11-20.2.0/Contents/Home/bin/node  --jvm
 Welcome to Node.js v12.18.0.
 Type ".help" for more information.
+$ echo $SPARK_HOME 
+~/etl/spark-2.4.0-bin-hadoop2.7
 
 $ CLASSPATH=$(find "$SPARK_HOME/jars/" -name '*.jar' | xargs echo | tr ' ' ':')
 $ bin/node  --jvm --vm.cp $CLASSPATH
