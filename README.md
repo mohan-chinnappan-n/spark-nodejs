@@ -231,6 +231,6 @@ $ /Library/Java/JavaVirtualMachines/graalvm-ce-java11-20.2.0/Contents/Home/bin/n
 ```
 ![screenshot](img/schema-1.png)
 ## References
-
+- [Using Java libraries from a Node.js application. Testcontainers example](https://medium.com/graalvm/using-testcontainers-from-a-node-js-application-3aa2273bf3bb)
 - [Writing Apache Spark Programs in JavaScript](http://blog.madhukaraphatak.com/spark-in-javascript/)
 
